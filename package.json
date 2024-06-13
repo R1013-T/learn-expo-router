@@ -15,11 +15,13 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@expo-google-fonts/inter": "^0.2.3",
     "@expo/vector-icons": "^14.0.0",
     "@react-navigation/native": "^6.0.2",
     "expo": "~51.0.11",
     "expo-constants": "~16.0.2",
     "expo-font": "~12.0.7",
+    "expo-google-fonts": "^0.0.0",
     "expo-linking": "~6.3.1",
     "expo-router": "~3.5.15",
     "expo-splash-screen": "~0.27.5",
@@ -45,5 +47,6 @@
     "react-test-renderer": "18.2.0",
     "typescript": "~5.3.3"
   },
-  "private": true
+  "private": true,
+  "packageManager": "pnpm@9.1.4+sha256.30a1801ac4e723779efed13a21f4c39f9eb6c9fbb4ced101bce06b422593d7c9"
 }

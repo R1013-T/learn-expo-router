@@ -22,6 +22,7 @@ export default function Page() {
       />
       <Text>User Page: {id}</Text>
       <Link href="/">Home</Link>
+      <Link href="/user/modal">Present modal</Link>
     </View>
   )
 }

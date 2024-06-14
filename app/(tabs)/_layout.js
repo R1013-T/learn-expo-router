@@ -19,7 +19,15 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="user/[id]"
+        name="/[detail]"
+        options={{
+          title: 'Detail',
+          href: null,
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="user" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="/user/[id]"
         options={{
           title: 'User',
           href: {
